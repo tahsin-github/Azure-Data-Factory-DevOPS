@@ -1,0 +1,9 @@
+{
+	"name": "learnDevOPS",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35fb8adb-a596-436d-b646-36a7870b21ab",
+		"tenantId": "5bdc0a4d-135f-432f-b071-79e36a7c13ac"
+	}
+}
