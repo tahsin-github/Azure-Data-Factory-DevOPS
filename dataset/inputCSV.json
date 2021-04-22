@@ -1,0 +1,39 @@
+{
+	"name": "inputCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobInput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Customer_Id",
+				"type": "String"
+			},
+			{
+				"name": "Customer_Name",
+				"type": "String"
+			},
+			{
+				"name": "Customer_Email",
+				"type": "String"
+			},
+			{
+				"name": "Customer_City",
+				"type": "String"
+			}
+		]
+	}
+}
